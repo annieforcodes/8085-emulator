@@ -18,7 +18,7 @@ Fetch-Decode-Execute Cycle: A central while loop continuously fetches opcodes fr
 
 Accurate Flag Handling: All arithmetic operations update the five key flags (Sign, Zero, Parity, Carry, Aux Carry) with bit-perfect accuracy, including handling borrow logic for SUB.
 
-Modular Code: The project is organized into multiple files (emu8085.c, opcodes.c, emu8085.h) for scalability and clean separation of the CPU loop from the instruction logic.
+Modular Code: The project is organized into multiple files for scalability and clean separation of the CPU loop from the instruction logic.
 
 Implemented Instruction Groups
 This emulator currently supports the foundational 8085 instruction set:
@@ -38,4 +38,3 @@ Bitwise Operations: Heavy reliance on bitwise operators (&, |, ^, <<, >>) for op
 
 Computer Architecture: Practical application of concepts like instruction sets, opcodes, memory addressing (little-endian), and the function of a CPU's flags and registers.
 
-Software Design: Refactored instruction logic into helper functions (e.g., read_reg) to avoid code duplication and improve maintainability.
