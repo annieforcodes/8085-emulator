@@ -1,5 +1,5 @@
 8085 Microprocessor Emulator
-A lightweight, portable 8085 CPU emulator written from scratch in C. This project simulates the core hardware functionality of the Intel 8085, allowing it to load and execute 8085 machine code programs.
+An 8085 CPU emulator written from scratch in C. This project simulates the core hardware functionality of the Intel 8085, allowing it to load and execute 8085 machine code programs.
 
 The primary goal of this project was to gain a deep, practical understanding of computer architecture and low-level systems programming.
 
