@@ -1,3 +1,4 @@
+
 #include "emu8085.h"
 uint8_t memory[65536]; // final global array
 CPUState cpu = {0};   // global initialised for the cpu state print(v2)

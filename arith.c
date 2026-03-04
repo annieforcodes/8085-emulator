@@ -1,3 +1,4 @@
+
 #include "emu8085.h"
 static uint8_t parity(uint8_t value){ //odd parity
     int count=0;

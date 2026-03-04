@@ -1,3 +1,4 @@
+
 #include "emu8085.h"
 void LDA(CPUState *cpu, uint8_t opcode){
     uint16_t address = (((uint16_t)memory[cpu->pc+2])<<8)|memory[cpu->pc+1];
@@ -34,4 +35,3 @@ void MVI(CPUState *cpu, uint8_t opcode){
         }
 
 }cpu->pc +=2;
-}

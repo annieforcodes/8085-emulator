@@ -1,3 +1,4 @@
+
 #ifndef EMU8085_H
 #define EMU8085_H
 #include <stdio.h>
@@ -24,6 +25,7 @@ void ADD(CPUState *cpu, uint8_t opcode);
 void SUB(CPUState *cpu, uint8_t opcode);
 void LDA(CPUState *cpu, uint8_t opcode);
 void STA(CPUState *cpu, uint8_t opcode);
+
 
 
 #endif
