@@ -35,3 +35,4 @@ void MVI(CPUState *cpu, uint8_t opcode){
         }
 
 }cpu->pc +=2;
+}

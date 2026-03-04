@@ -18,7 +18,7 @@ for i in range(Numoftest):
         f.write("80\n") #add b
         f.write("76\n") #hlt
 
-    result = subprocess.run(["./emulator"],capture_output=True, text=True)
+    result = subprocess.run(["./emulator","program.hex"],capture_output=True, text=True)
     cpu = json.loads(result.stdout.strip())
 
     expected = (a+b) & 0xFF
@@ -57,7 +57,7 @@ for i in range(Numoftest_sub):
         f.write("90\n")           # SUB B
         f.write("76\n")           # HLT
 
-    result = subprocess.run(["./emulator"], capture_output=True, text=True)
+    result = subprocess.run(["./emulator","program.hex"], capture_output=True, text=True)
     cpu = json.loads(result.stdout.strip())
 
     expected = (a - b) & 0xFF
